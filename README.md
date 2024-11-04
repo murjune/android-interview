@@ -30,7 +30,7 @@
 
 - [접근 제어자의 차이점](https://github.com/murjune/android-interview/discussions/36)
 - 인터페이스와 추상 클래스의 차이
-- [static과 non-static의 차이] (https://github.com/murjune/android-interview/discussions/21)
+- [static과 non-static의 차이](https://github.com/murjune/android-interview/discussions/21)
 - final 키워드에 대해 설명
 
 ## String 및 관련 메모리 관리
