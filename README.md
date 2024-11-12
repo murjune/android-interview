@@ -5,6 +5,7 @@
 ## 스터디 주제
 - 1주차: JAVA
 - 2주차: Kotlin
+- 3주차: Android
 - 미정: Android, OOP/Architecture, Coroutine/Flow, CS
 
 ## 스터디 방식
