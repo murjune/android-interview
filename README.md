@@ -106,40 +106,47 @@
   <summary> <h2> Kotlin </h2></summary>
 
   # 1. 기초 문법 및 키워드
-- 코틀린의 장점
-- Kotlin에서 const를 사용하는 이점은?
-- Kotlin에서 lateinit vs by Lazy?
-- lateinit 변수가 초기화되었는지 확인하는 방법
-- Kotlin에서 init 블록이란?
-- val과 var의 차이점은?
-- Generic이란?
-- Kotlin에서 inline 함수란?
-- Kotlin에서 reified 키워드란?
-- backing property 설명해주세요.
-- noinline이란?
-- crossinline이란?
-- open 키워드란?
-- Kotlin 접근 제어자
-- infix 키워드란?
+- [코틀린의 장점](https://github.com/murjune/android-interview/discussions/39)
+- [코틀린이 실행되는 과정 설명](https://github.com/murjune/android-interview/discussions/58)
+- [Property 란?](https://github.com/murjune/android-interview/discussions/60)
+- [Field vs Property](https://github.com/murjune/android-interview/discussions/75)
+- [Kotlin에서 const를 사용하는 이점은?](https://github.com/murjune/android-interview/discussions/40)
+- [Kotlin에서 lateinit vs by Lazy?](https://github.com/murjune/android-interview/discussions/41)
+- [lateinit 변수가 초기화되었는지 확인하는 방법](https://github.com/murjune/android-interview/discussions/42)
+- [Kotlin에서 init 블록이란?](https://github.com/murjune/android-interview/discussions/59)
+- [val과 var의 차이점은?](https://github.com/murjune/android-interview/discussions/61)
+- [Generic이란?](https://github.com/murjune/android-interview/discussions/43)
+- [Generic 타입 상한 제한(upper bound)이란?](https://github.com/murjune/android-interview/discussions/68)
+- [Generic 변성에 대해 설명하시오](https://github.com/murjune/android-interview/discussions/69)
+- [Star Projection 이란?](https://github.com/murjune/android-interview/discussions/70)
+- [Kotlin에서 inline 함수란?](https://github.com/murjune/android-interview/discussions/44)
+- [Kotlin에서 reified 키워드란?](https://github.com/murjune/android-interview/discussions/45)
+- [backing property 설명해주세요.](https://github.com/murjune/android-interview/discussions/46)
+- [noinline이란?](https://github.com/murjune/android-interview/discussions/47)
+- [crossinline이란?](https://github.com/murjune/android-interview/discussions/48)
+- [open 키워드란?](https://github.com/murjune/android-interview/discussions/57)
+- [Kotlin 접근 제어자](https://github.com/murjune/android-interview/discussions/62)
+- [infix 키워드란?](https://github.com/murjune/android-interview/discussions/54)
 - Kotlin의 Lable이란?
-- 일급 시민이란?
+- [일급 시민이란?](https://github.com/murjune/android-interview/discussions/49)
+- [타입 변환(Type Conversion) vs 타입 캐스팅(Type Casting)](https://github.com/murjune/android-interview/discussions/63)
 
 # 2. 클래스 및 객체 지향 프로그래밍
-- companion object란?
+- [companion object란?](https://github.com/murjune/android-interview/discussions/50)
 - Kotlin에서 싱글톤 클래스를 생성하는 방법
-- Kotlin에서 데이터 클래스란?
-- Kotlin에서 Java의 정적 메서드에 해당하는 것은?
-- Kotlin의 sealed class를 언제 사용하나요?
-- Kotlin의 JvmStatic 어노테이션이란?
-- Kotlin의 JvmField 어노테이션이란?
-- Kotlin의 JvmOverloads 어노테이션이란?
+- [Kotlin에서 데이터 클래스란?](https://github.com/murjune/android-interview/discussions/71)
+- [Kotlin에서 Java의 정적 메서드에 해당하는 것은?](https://github.com/murjune/android-interview/discussions/65)
+- [Kotlin의 sealed class를 언제 사용하나요?](https://github.com/murjune/android-interview/discussions/52)
+- [Kotlin의 JvmStatic 어노테이션이란?](https://github.com/murjune/android-interview/discussions/55)
+- [Kotlin의 JvmField 어노테이션이란?](https://github.com/murjune/android-interview/discussions/56)
+- [Kotlin의 JvmOverloads 어노테이션이란?](https://github.com/murjune/android-interview/discussions/64)
 - Kotlin의 inline/value 클래스 설명
-- Kotlin에서 open과 public의 차이점은?
+- [Kotlin에서 open과 public의 차이점은?](https://github.com/murjune/android-interview/discussions/57)
 
 # 3. 함수와 람다
-- Kotlin에서 고차 함수란?
-- Kotlin에서 람다식이란?
-- Kotlin에서 let, run, with, also, apply의 설명 및 사용 사례
+- [Kotlin에서 고차 함수란?](https://github.com/murjune/android-interview/discussions/66)
+- [Kotlin에서 람다식이란?](https://github.com/murjune/android-interview/discussions/67)
+- [Kotlin에서 let, run, with, also, apply의 설명 및 사용 사례](https://github.com/murjune/android-interview/discussions/51)
 - apply와 with를 선택하는 방법
 
 </details>
