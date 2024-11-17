@@ -209,8 +209,8 @@
 	4.	Android 애플리케이션의 프로젝트 구조
 	5.	AndroidManifest.xml이란 무엇인가?
 	6.	Application 클래스란 무엇이며, 역할은 무엇인가?
-	7. Android 4대 컴포넌트는 무엇인가요
-	8. 다국어 지원은 어떻게 하나요
+	7.	Android 4대 컴포넌트는 무엇인가요
+	8.	다국어 지원은 어떻게 하나요
 
 
 ### Activity와 Fragment
@@ -243,7 +243,7 @@
 	7.	Relative Layout과 Linear Layout의 차이
 	8.	ConstraintLayout이란?
 	9.	View 트리란 무엇이며, 깊이를 최적화하는 방법
-	10. inflate에 대해 설명해주세요
+	10.	inflate에 대해 설명해주세요
 
 ### RecyclerView 및 리스트
 
@@ -277,7 +277,7 @@
 	6.	브로드캐스트와 인텐트를 통해 앱에서 메시지를 전달하는 방법
 	7.	PendingIntent란?
 	8.	브로드캐스트의 유형
-	9. Intent 필터
+	9.	Intent 필터
 
 ### 서비스
 
@@ -285,7 +285,7 @@
 	2.	Service와 IntentService의 차이점
 	3.	Foreground Service란?
 	4.	JobScheduler란?
-	5. Background Service란?
+	5.	Background Service란?
 
 ### 프로세스 간 통신
 
@@ -309,7 +309,7 @@
 
 	1.	Bitmap 처리 방법
 	2.	Bitmap 풀 사용 방법
-	3. Android에서 사이즈가 큰 이미지를 불러올려고 합니다. 어떻게 해야할까요?
+	3.	Android에서 사이즈가 큰 이미지를 불러올려고 합니다. 어떻게 해야할까요?
 
 ### 데이터 저장 및 관리
 
@@ -344,7 +344,7 @@
 #### 화면 크기 대응
 
 	1.	다양한 해상도를 지원하는 방법
-	2.  dp sp px 차이
+	2.	dp sp px 차이
 
 ### 권한 관리
 
@@ -374,7 +374,7 @@
 	7.	Fragment 간 ViewModel 공유 방법
 	8.	WorkManager와 사용 사례
 	9.	ViewModel의 내부 작동 방식
- 10. MVVM viewModel과 AAC viewModel 차이
+	10.	MVVM viewModel과 AAC viewModel 차이
 
 ### 기타
 
@@ -389,9 +389,9 @@
 	9.	커스텀 Annotation 생성 방법
 	10.	지원 라이브러리란? 도입 이유
 	11.	Android Data Binding 설명
- 12. apk와 aab 차이 설명
- 13. Android 배포 프로세스에 대해 설명해주세요
- 14. Kapt에 대해 설명해주세요
+	12.	apk와 aab 차이 설명
+	13.	Android 배포 프로세스에 대해 설명해주세요
+	14.	Kapt에 대해 설명해주세요
 
 ### Android 라이브러리
 
@@ -419,17 +419,18 @@
 	22.	RxJava를 사용한 검색 기능 구현 방법
 	23.	RxJava 연산자를 사용한 RecyclerView의 페이지네이션
 	24.	Android 이미지 로딩 라이브러리인 Glide와 Fresco, Piccaso, Coil의 작동 방식
-	25.	RxJava에서 Schedulers.io()와 Schedulers.computation()의 차이점 26.	직렬화 라이브러리 Kotlinx-Serialization, Gson, Moshi의 차이점
+	25.	RxJava에서 Schedulers.io()와 Schedulers.computation()의 차이점
+	26.	직렬화 라이브러리 Kotlinx-Serialization, Gson, Moshi의 차이점
 
 
 ### Android Architecture
- 	1. MVVM 설명
- 	2. MVI
- 	3. MVC vs MVP vs MVVM vs MVI 아키텍처
-	4. 클린 아키텍처란 무엇인가요?
- 	4. 소프트웨어 아키텍처와 소프트웨어 설계의 차이점
- 	5. Repository 패턴
- 	6. 구글 권장 아키텍처 vs 클린 아키텍처
- 	7. UDF
+ 	1.	MVVM 설명
+ 	2.	MVI
+ 	3.	MVC vs MVP vs MVVM vs MVI 아키텍처
+	4.	클린 아키텍처란 무엇인가요?
+ 	5.	소프트웨어 아키텍처와 소프트웨어 설계의 차이점
+ 	6.	Repository 패턴
+ 	7.	구글 권장 아키텍처 vs 클린 아키텍처
+ 	8.	UDF
 
 </details>
