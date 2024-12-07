@@ -178,7 +178,7 @@
 - 고해상도 이미지의 로딩 방법은?
 - [Looper란?](https://github.com/murjune/android-interview/discussions/97)
 - MultiDex란?
-- [Proguard의 원리는?](https://github.com/murjune/android-interview/discussions/121)
+- [Proguard의 원리는?](https://github.com/murjune/android-interview/discussions/104)
 - [Gradle이 무엇이며, 안드로이드 빌드 시스템에서 어떻게 활용되나요?](https://github.com/murjune/android-interview/discussions/119)
 
   
@@ -290,7 +290,7 @@
 
 ### 인텐트 및 브로드캐스트
 
-- [Intent란?](https://github.com/murjune/android-interview/discussions/115)
+- [Intent란?](https://github.com/murjune/android-interview/discussions/91)
 - [암시적(Implicit) Intent란?](https://github.com/murjune/android-interview/discussions/92)
 - [명시적(Explicit) Intent란?](https://github.com/murjune/android-interview/discussions/93)
 - [BroadcastReceiver란?](https://github.com/murjune/android-interview/discussions/144)
