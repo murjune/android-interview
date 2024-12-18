@@ -3,12 +3,14 @@
 매주 하나의 주제를 통해 모의 면접을 진행하는 스터디
 
 ## 스터디 주제
+
 - 1주차: JAVA
 - 2주차: Kotlin
 - 3주차: Android
 - 미정: Android, OOP/Architecture, Coroutine/Flow, CS
 
 ## 스터디 방식
+
 그 주차 스터디 주제를 바탕으로 면접자 2명, 피면접자 1명, 관찰자 1명으로 모의 면접 진행한다.
 
 - 20~30분 질문
@@ -90,6 +92,7 @@
 - [Arrays Vs ArrayLists](https://github.com/murjune/android-interview/discussions/1)
 - HashSet Vs TreeSet
 - HashMap Vs Set
+- List.distinct()를 사용하는 것과 Set 사용하는 것의 차이
 - [HashMap Vs HashSet](https://github.com/murjune/android-interview/discussions/27)
 - [컬렉션 프레임워크란 (Kotlin Collection과 비교)](https://github.com/murjune/android-interview/discussions/11)
 - [for문 vs Stream vs Sequence](https://github.com/murjune/android-interview/discussions/22)
@@ -101,13 +104,14 @@
 - [가비지 컬렉션이란](https://github.com/murjune/android-interview/discussions/15)
 - [가비지 컬렉션는 언제 일어나는가?](https://github.com/murjune/android-interview/discussions/14)
 - [JVM 동작 원리를 설명해주세요.](https://github.com/murjune/android-interview/discussions/5)
-  
+
 </details> 
 
 <details>
   <summary> <h2> Kotlin </h2></summary>
 
-  # 1. 기초 문법 및 키워드
+# 1. 기초 문법 및 키워드
+
 - [코틀린의 장점](https://github.com/murjune/android-interview/discussions/39)
 - [코틀린이 실행되는 과정 설명](https://github.com/murjune/android-interview/discussions/58)
 - [Property 란?](https://github.com/murjune/android-interview/discussions/60)
@@ -129,11 +133,15 @@
 - [open 키워드란?](https://github.com/murjune/android-interview/discussions/57)
 - [Kotlin 접근 제어자](https://github.com/murjune/android-interview/discussions/62)
 - [infix 키워드란?](https://github.com/murjune/android-interview/discussions/54)
-- Kotlin의 Lable이란?
+- [Kotlin의 Lable이란?](https://github.com/murjune/android-interview/discussions/195)
 - [일급 시민이란?](https://github.com/murjune/android-interview/discussions/49)
 - [타입 변환(Type Conversion) vs 타입 캐스팅(Type Casting)](https://github.com/murjune/android-interview/discussions/63)
+- data class를 사용하면 자동으로 오버라이드 되는 메서드들
+- Enum class를 사용한 경험이 있는가?
+- Enum class 대신 sealed class와 object를 사용할 수 있는데, 언제 Enum class를 사용해야 하는가?
 
 # 2. 클래스 및 객체 지향 프로그래밍
+
 - [companion object란?](https://github.com/murjune/android-interview/discussions/50)
 - [object와 data object의 차이](https://github.com/murjune/android-interview/discussions/137)
 - Kotlin에서 싱글톤 클래스를 생성하는 방법
@@ -147,6 +155,7 @@
 - [Kotlin에서 open과 public의 차이점은?](https://github.com/murjune/android-interview/discussions/57)
 
 # 3. 함수와 람다
+
 - [Kotlin에서 고차 함수란?](https://github.com/murjune/android-interview/discussions/66)
 - [Kotlin에서 람다식이란?](https://github.com/murjune/android-interview/discussions/67)
 - [Kotlin에서 let, run, with, also, apply의 설명 및 사용 사례](https://github.com/murjune/android-interview/discussions/51)
@@ -157,16 +166,9 @@
 <details>
   <summary> <h2> Android </h2></summary>
 
-### 공통 개발자 기술 질문
+### 이미지
+
 - [PNG와 JPG의 차이점은?](https://github.com/murjune/android-interview/discussions/76)
-- [Dynamic Programming이란?](https://github.com/murjune/android-interview/discussions/77)
-- [Virtual Memory란?](https://github.com/murjune/android-interview/discussions/78)
-- Garbage Collection이란?
-- [Cache란?](https://github.com/murjune/android-interview/discussions/79)
-- Database Index 추가의 장단점은?
-- [비대칭 암호화란?](https://github.com/murjune/android-interview/discussions/81)
-- HDD, SSD, DRAM 각각의 성능은?
-- GIT의 장점은?
 
 ### Android 개발자 기술 질문
 
@@ -176,49 +178,10 @@
 - [WeakReference란?](https://github.com/murjune/android-interview/discussions/122)
 - [Parcelable이란?](https://github.com/murjune/android-interview/discussions/96)
 - 고해상도 이미지의 로딩 방법은?
-- [Looper란?](https://github.com/murjune/android-interview/discussions/97)
-- MultiDex란?
-- [Proguard의 원리는?](https://github.com/murjune/android-interview/discussions/104)
-- [Gradle이 무엇이며, 안드로이드 빌드 시스템에서 어떻게 활용되나요?](https://github.com/murjune/android-interview/discussions/119)
-
-  
-### 자료구조 및 알고리즘
-
-- List와 Set의 차이
-- List.distinct()를 사용하는 것과 Set 사용하는 것의 차이
-- ArrayList와 LinkedList의 차이
-- 여러 스레드에서 공유 자원 접근 시 주의 사항
-- 동시성 문제를 겪은 경험이 있는가?
-- [동기화하는 방법?](https://github.com/murjune/android-interview/discussions/141)
-- [synchronized를 메소드 블록과 내부 블록에서 사용하는 것의 차이](https://github.com/murjune/android-interview/discussions/136)
-- 싱글톤을 사용한 경험과 동시성 문제
-
-### Kotlin 언어 및 클래스 사용
-
-- data class를 사용하면 자동으로 오버라이드 되는 메서드들
-- Enum class를 사용한 경험이 있는가?
-- Enum class 대신 sealed class와 object를 사용할 수 있는데, 언제 Enum class를 사용해야 하는가?
 
 ### 네트워크 및 에러 처리
 
 - 네트워크 에러 처리 관련 경험
-- 코루틴 사용 시 예외 처리 방법
-
-  
-### 코루틴
-
-- [코루틴이란](https://github.com/murjune/android-interview/discussions/113)
-- [코루틴과 스레드의 차이](https://github.com/murjune/android-interview/discussions/135)
-- [코루틴 빌더](https://github.com/murjune/android-interview/discussions/167)
-- [코루틴에서 launch와 async의 차이점은 무엇인가요?](https://github.com/murjune/android-interview/discussions/123)
-- [CoroutineContext란?](https://github.com/murjune/android-interview/discussions/170)
-- [CoroutineScope란?](https://github.com/murjune/android-interview/discussions/169)
-- [Job이란?](https://github.com/murjune/android-interview/discussions/174)
-- [코루틴이 작업을 수행할 때 실제로 코루틴 내부에서는 무엇을 하나요?](https://github.com/murjune/android-interview/discussions/133)
-- [구조화된 동시성이란?](https://github.com/murjune/android-interview/discussions/168)
-- [코루틴 Dispatcher란?](https://github.com/murjune/android-interview/discussions/114)
-- [코루틴이 왜 경량 스레드일까?](https://github.com/murjune/android-interview/discussions/143)
-- [suspend 키워드는 무엇이며, 어떤 경우에 사용되나요?](https://github.com/murjune/android-interview/discussions/134)
 
 ### Android 기초
 
@@ -286,7 +249,7 @@
 
 - Dialog란?
 - Toast란?
-- Dialog와 Dialog Fragment의 차이점
+- Dialog와 DialogFragment의 차이점
 
 ### 인텐트 및 브로드캐스트
 
@@ -319,12 +282,6 @@
 
 ### 장기 작업
 
-- 병렬 작업 실행 및 완료 시 콜백 받기
-- ANR이란? ANR 방지 방법
-- [AsyncTask(Deprecated)란?](https://github.com/murjune/android-interview/discussions/117)
-- [AsyncTask 사용 시 문제점](https://github.com/murjune/android-interview/discussions/118)
-- [데몬 스레드와 사용자 스레드의 차이](https://github.com/murjune/android-interview/discussions/152)
-- [Looper, Handler, 및 HandlerThread 설명](https://github.com/murjune/android-interview/discussions/116)
 - Android 메모리 누수와 가비지 컬렉션
 
 ### 멀티미디어 콘텐츠
@@ -335,17 +292,14 @@
 
 ### 데이터 저장 및 관리
 
-- [Jetpack DataStore Preferences](https://github.com/murjune/android-interview/discussions/140)
 - [SharedPreferences의 commit()과 apply() 차이](https://github.com/murjune/android-interview/discussions/139)
 - [Android 앱에서 데이터 유지 방법](https://github.com/murjune/android-interview/discussions/166)
-- [Room 데이터베이스 마이그레이션은 어떻게 처리하나요?](https://github.com/murjune/android-interview/discussions/132)
 - ORM이란? 작동 원리
 - 화면 회전 시 Activity 상태 보존 방법
 - Android 앱의 데이터 저장 방식
 - Scoped Storage 설명
 - 데이터 암호화 방법
 - SharedPreferences의 commit()과 apply() 차이
-- [Database Index 추가의 장단점은?](https://github.com/murjune/android-interview/discussions/80)
 
 ### UI 및 시각적 표현
 
@@ -375,40 +329,12 @@
 
 - 권한 보호 수준과 종류
 
-### 네이티브 프로그래밍
-
-- NDK란? 유용성
-- Renderscript란?
-
-### Android 시스템 내부
-
-- Android Runtime이란?
-- [Dalvik, ART, JIT, AOT의 차이](https://github.com/murjune/android-interview/discussions/98)
-- DEX란?
-- [Multidex란?](https://github.com/murjune/android-interview/discussions/99)
-- 가비지 수집을 강제 호출할 수 있는지 여부
-- [Android 앱이 APK(Android Package) 파일로 빌드되는 과정 (질문지에 없음)](https://github.com/murjune/android-interview/discussions/105)
-
-### Android Jetpack
-
-- [Android Jetpack이란? 사용 이유](https://github.com/murjune/android-interview/discussions/106)
-- ViewModel이란? 유용성
-- Android 아키텍처 구성 요소 설명
-- LiveData란?
-- LiveData와 ObservableField의 차이점
-- [setValue와 postValue의 차이점](https://github.com/murjune/android-interview/discussions/146)
-- Fragment 간 ViewModel 공유 방법
-- WorkManager와 사용 사례
-- [ViewModel의 내부 작동 방식](https://github.com/murjune/android-interview/discussions/147)
-- [MVVM viewModel과 AAC viewModel 차이](https://github.com/murjune/android-interview/discussions/103)
-
 ### 기타
 
 - Serializable과 Parcelable의 차이
 - 데이터 전달 시 Bundle 클래스를 사용하는 이유
 - 앱 충돌 문제 해결 방법
 - Android 푸시 알림 시스템 설명
-- AAPT란?
 - FlatBuffers와 JSON 차이
 - HashMap, ArrayMap, SparseArray의 차이점
 - Annotation이란?
@@ -419,11 +345,29 @@
 - Android 배포 프로세스에 대해 설명해주세요
 - Kapt에 대해 설명해주세요
 - [KAPT와 KSP의 차이점](https://github.com/murjune/android-interview/discussions/145)
+- [의존성 순환 참조(Circular Dependency)가 발생하면 어떻게 해결하실 건가요?](https://github.com/murjune/android-interview/discussions/163)
 
-### Android 라이브러리
+<details>
+  <summary> <h2> Android Library </h2></summary>
 
-- OkHttp Interceptor 설명
-- OkHttp HTTP 캐싱
+## Jetpack
+
+- App Startup Library의 역할
+- [Android Jetpack이란? 사용 이유](https://github.com/murjune/android-interview/discussions/106)
+- ViewModel이란? 유용성
+- Android 아키텍처 구성 요소 설명
+- LiveData란?
+- LiveData와 ObservableField의 차이점
+- [setValue와 postValue의 차이점](https://github.com/murjune/android-interview/discussions/146)
+- Fragment 간 ViewModel 공유 방법
+- WorkManager와 사용 사례
+- [ViewModel의 내부 작동 방식](https://github.com/murjune/android-interview/discussions/147)
+- [MVVM viewModel과 AAC viewModel 차이](https://github.com/murjune/android-interview/discussions/103)
+- [Jetpack DataStore Preferences](https://github.com/murjune/android-interview/discussions/140)
+- [Room 데이터베이스 마이그레이션은 어떻게 처리하나요?](https://github.com/murjune/android-interview/discussions/132)
+
+## DI Framework
+
 - 의존성 주입 프레임워크(Dagger)를 사용하는 이유
 - Dagger의 작동 방식
 - Dagger 2와 Dagger-Hilt의 선택 기준
@@ -436,15 +380,80 @@
 - Dagger에서 Component란?
 - Dagger에서 Module이란?
 - [Koin과 Hilt의 차이점은 무엇이며, 어떤 상황에서 Koin을 선택하실 건가요?](https://github.com/murjune/android-interview/discussions/161)
-- [의존성 순환 참조(Circular Dependency)가 발생하면 어떻게 해결하실 건가요?](https://github.com/murjune/android-interview/discussions/163)
-- RxJava에서 CompositeDisposable의 dispose와 clear 호출 시점
+
+## Image Loading Library
+
+- [Android 이미지 로딩 라이브러리인 Glide와 Fresco, Piccaso, Coil의 작동 방식](https://github.com/murjune/android-interview/discussions/154)
+
+## 네트워크
+
 - 네트워킹에서 Multipart 요청을 처리하는 방법
+- OkHttp Interceptor 설명
+- OkHttp HTTP 캐싱
+
+## 직렬화 라이브러리
+
+- 직렬화 라이브러리 Kotlinx-Serialization, Gson, Moshi의 차이점
+
+</details>
+
+<details>
+  <summary> <h2> Android Architecture </h2></summary>
+
+- [MVC vs MVP vs MVVM vs MVI 아키텍처](https://github.com/murjune/android-interview/discussions/90)
+- 클린 아키텍처란 무엇인가요?
+- 소프트웨어 아키텍처와 소프트웨어 설계의 차이점
+- Repository 패턴
+- 구글 권장 아키텍처 vs 클린 아키텍처
+- UDF
+
+</details>
+
+
+</details>
+
+
+<details>
+  <summary> <h2> Android 비동기 프로그래밍 </h2></summary>
+
+- ANR이란? ANR 방지 방법
+
+### Thread & Handler
+
+- [데몬 스레드와 사용자 스레드의 차이](https://github.com/murjune/android-interview/discussions/152)
+- [Looper란?](https://github.com/murjune/android-interview/discussions/97)
+- [Looper, Handler, 및 HandlerThread 설명](https://github.com/murjune/android-interview/discussions/116)
+
+### Kotlin Coroutine/Flow
+
 - [Kotlin의 Flow란?](https://github.com/murjune/android-interview/discussions/124)
 - [SharedFlow란?](https://github.com/murjune/android-interview/discussions/173)
 - [StateFlow란?](https://github.com/murjune/android-interview/discussions/171)
 - [핫 스트림(hot stream)과 콜드 스트림(cold stream)의 차이점은 무엇인가요?](https://github.com/murjune/android-interview/discussions/125)
 - [StateFlow와 LiveData의 차이점](https://github.com/murjune/android-interview/discussions/172)
-- App Startup Library의 역할
+
+
+- [코루틴이란](https://github.com/murjune/android-interview/discussions/113)
+- [코루틴과 스레드의 차이](https://github.com/murjune/android-interview/discussions/135)
+- [코루틴 빌더](https://github.com/murjune/android-interview/discussions/167)
+- [코루틴에서 launch와 async의 차이점은 무엇인가요?](https://github.com/murjune/android-interview/discussions/123)
+- [CoroutineContext란?](https://github.com/murjune/android-interview/discussions/170)
+- [CoroutineScope란?](https://github.com/murjune/android-interview/discussions/169)
+- [Job이란?](https://github.com/murjune/android-interview/discussions/174)
+- [코루틴이 작업을 수행할 때 실제로 코루틴 내부에서는 무엇을 하나요?](https://github.com/murjune/android-interview/discussions/133)
+- [구조화된 동시성이란?](https://github.com/murjune/android-interview/discussions/168)
+- [코루틴 Dispatcher란?](https://github.com/murjune/android-interview/discussions/114)
+- [코루틴이 왜 경량 스레드일까?](https://github.com/murjune/android-interview/discussions/143)
+- [suspend 키워드는 무엇이며, 어떤 경우에 사용되나요?](https://github.com/murjune/android-interview/discussions/134)
+- 코루틴 사용 시 예외 처리 방법
+
+### AsyncTask
+
+- [AsyncTask(Deprecated)란?](https://github.com/murjune/android-interview/discussions/117)
+- [AsyncTask 사용 시 문제점](https://github.com/murjune/android-interview/discussions/118)
+
+### RxJava
+
 - RxJava란?
 - RxJava에서의 에러 처리 방법
 - FlatMap과 Map 연산자의 차이점
@@ -457,20 +466,76 @@
 - RxJava의 Observable 유형과 사용 시점
 - RxJava를 사용한 검색 기능 구현 방법
 - RxJava 연산자를 사용한 RecyclerView의 페이지네이션
-- [Android 이미지 로딩 라이브러리인 Glide와 Fresco, Piccaso, Coil의 작동 방식](https://github.com/murjune/android-interview/discussions/154)
 - RxJava에서 Schedulers.io()와 Schedulers.computation()의 차이점
-- 직렬화 라이브러리 Kotlinx-Serialization, Gson, Moshi의 차이점
+- RxJava에서 CompositeDisposable의 dispose와 clear 호출 시점
 
-### Android Architecture
+</details>
 
-- MVVM 설명
-- MVI
-- [MVC vs MVP vs MVVM vs MVI 아키텍처](https://github.com/murjune/android-interview/discussions/90)
-- 클린 아키텍처란 무엇인가요?
-- 소프트웨어 아키텍처와 소프트웨어 설계의 차이점
-- Repository 패턴
-- 구글 권장 아키텍처 vs 클린 아키텍처
-- UDF
+<details>
+  <summary> <h2> Android 빌드 시스템 </h2></summary>
 
+### Gradle
+
+- [Gradle이 무엇이며, 안드로이드 빌드 시스템에서 어떻게 활용되나요?](https://github.com/murjune/android-interview/discussions/119)
+- [Gradle에서 setting.gradle.kts 와 build.gradle.kts 차이](https://github.com/murjune/android-interview/discussions/189)
+- [Gradle 빌드 프로세스에 대해 설명하시오](https://github.com/murjune/android-interview/discussions/188)
+- [Gradle에서 Plugin 과 Dependency 차이](https://github.com/murjune/android-interview/discussions/187)
+
+### Android 시스템 내부
+- [compileSdkVersion vs targetSdkVersion vs minSdkVersion 에 대해 설명하시오](https://github.com/murjune/android-interview/discussions/191)
+- [targetSdkVersion 과 compileSdkVersion를 일치시키는게 좋은 이유는?](https://github.com/murjune/android-interview/discussions/193)
+- [호환성 모드란?](https://github.com/murjune/android-interview/discussions/192)
+- [AGP가 무엇인가요?](https://github.com/murjune/android-interview/discussions/190)
+- [Dalvik, ART, JIT, AOT의 차이](https://github.com/murjune/android-interview/discussions/98)
+- ART(Android Runtime)란?
+- AAPT란?
+- [Proguard의 원리는?](https://github.com/murjune/android-interview/discussions/104)
+- [DEX란?/Multidex란?](https://github.com/murjune/android-interview/discussions/99)
+- 가비지 수집을 강제 호출할 수 있는지 여부
+- [Android 앱이 APK(Android Package) 파일로 빌드되는 과정](https://github.com/murjune/android-interview/discussions/105)
+- NDK란? 유용성
+- Renderscript란?
+
+</details>
+
+<details>
+  <summary> <h2> CS </h2></summary>
+
+### 자료구조 & 알고리즘
+
+- [Dynamic Programming이란?](https://github.com/murjune/android-interview/discussions/77)
+- 여러 스레드에서 공유 자원 접근 시 주의 사항
+- 동시성 문제를 겪은 경험이 있는가?
+- [동기화하는 방법?](https://github.com/murjune/android-interview/discussions/141)
+- [synchronized를 메소드 블록과 내부 블록에서 사용하는 것의 차이](https://github.com/murjune/android-interview/discussions/136)
+- 싱글톤을 사용한 경험과 동시성 문제
+
+### OS
+
+- [Virtual Memory란?](https://github.com/murjune/android-interview/discussions/78)
+
+### 컴퓨터 구조
+
+- HDD, SSD, DRAM 각각의 성능은?
+- [Cache란?](https://github.com/murjune/android-interview/discussions/79)
+
+### DB
+
+- [Database Index 추가의 장단점은?](https://github.com/murjune/android-interview/discussions/80)
+
+### ETC
+
+- Garbage Collection이란?
+- [비대칭 암호화란?](https://github.com/murjune/android-interview/discussions/81)
+
+</details>
+
+<details>
+  <summary> <h2> Git </h2></summary>
+
+- GIT의 장점은?
+- Git vs Github 차이
+- Git에서 Conflict가 발생하는 이유
+- Rebase와 Merge의 차이
 
 </details>
